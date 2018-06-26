@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.formdiv{
+  width: 250px;
+  background: #9edfe2;
+  padding: 20px 40px;
+  margin: 100px auto;
+}
+.formdiv form input[type=email],
+.formdiv form input[type=password]
+{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.formdiv form input[type=checkbox]{
+  vertical-align: middle;
+}
+#submitbtn{
+  background: #1f2021;
+  color: #fff;
+  padding: 5px;
+  outline: none;
+  border: none;
+}
+.formdiv label.error {
+  font-size: 18px;
+    color: red;
+    margin-top: 7px;
+    width: auto;
+    display: block;
+}
